@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34310.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BanDienThoai", "BanDienThoai\BanDienThoai.csproj", "{7F11A5B6-84E3-4B4B-BF63-6D296123C7DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BanDienThoai.Domain", "BanDienThoai.Domain\BanDienThoai.Domain.csproj", "{C131070E-4D6E-423D-A2CB-C296A828E847}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F11A5B6-84E3-4B4B-BF63-6D296123C7DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F11A5B6-84E3-4B4B-BF63-6D296123C7DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F11A5B6-84E3-4B4B-BF63-6D296123C7DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F11A5B6-84E3-4B4B-BF63-6D296123C7DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C131070E-4D6E-423D-A2CB-C296A828E847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C131070E-4D6E-423D-A2CB-C296A828E847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C131070E-4D6E-423D-A2CB-C296A828E847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C131070E-4D6E-423D-A2CB-C296A828E847}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {70CF4FE0-13F3-4A27-BB2A-9C7268CC461E}
+	EndGlobalSection
+EndGlobal

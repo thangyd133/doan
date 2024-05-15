@@ -1,0 +1,109 @@
+﻿
+@{
+    ViewBag.Title = "Checkout";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!--start-breadcrumbs-->
+<div class="breadcrumbs">
+    <div class="container">
+        <div class="breadcrumbs-main">
+            <ol class="breadcrumb">
+                <li><a href="~/Home/Index">Trang chủ</a></li>
+                <li class="active">Thanh toán</li>
+            </ol>
+        </div>
+    </div>
+</div>
+<!--end-breadcrumbs-->
+<!--start-ckeckout-->
+<div class="ckeckout">
+    <div class="container">
+        <div class="ckeck-top heading">
+            <h2>THANH TOÁN</h2>
+        </div>
+        <div class="ckeckout-top">
+            <div class="cart-items">
+                <h3>Giỏ hàng của tôi (3)</h3>
+                <script>
+$(document).ready(function(c) {
+					$('.close1').on('click', function(c){
+						$('.cart-header').fadeOut('slow', function(c){
+							$('.cart-header').remove();
+						});
+						});
+					});
+                </script>
+                <script>
+$(document).ready(function(c) {
+					$('.close2').on('click', function(c){
+						$('.cart-header1').fadeOut('slow', function(c){
+							$('.cart-header1').remove();
+						});
+						});
+					});
+                </script>
+                <script>
+$(document).ready(function(c) {
+					$('.close3').on('click', function(c){
+						$('.cart-header2').fadeOut('slow', function(c){
+							$('.cart-header2').remove();
+						});
+						});
+					});
+                </script>
+
+                <div class="in-check">
+                    <ul class="unit">
+                        <li><span>Ảnh</span></li>
+                        <li><span>Tên sản phẩm</span></li>
+                        <li><span>Đơn giá</span></li>
+                        <li><span>Chi tiết giao hàng</span></li>
+                        <li> </li>
+                        <div class="clearfix"> </div>
+                    </ul>
+                    <ul class="cart-header">
+                        <div class="close1"> </div>
+                        <li class="ring-in">
+                            <a href="~/Home/Detail"><img src="~/images/c-1.jpg" class="img-responsive" alt=""></a>
+                        </li>
+                        <li><span class="name">Iphone 13</span></li>
+                        <li><span class="cost">13.990.990vnđ</span></li>
+                        <li>
+                            <span>Miễn phí</span>
+                            <p>Giao hàng từ 2-3 ngày</p>
+                        </li>
+                        <div class="clearfix"> </div>
+                    </ul>
+                    <ul class="cart-header">
+                        <div class="close2"> </div>
+                        <li class="ring-in">
+                            <a href="~/Home/Detail"><img src="~/images/c-1.jpg" class="img-responsive" alt=""></a>
+                        </li>
+                        <li><span class="name">Iphone 13</span></li>
+                        <li><span class="cost">13.990.990vnđ</span></li>
+                        <li>
+                            <span>Miễn phí</span>
+                            <p>Giao hàng từ 2-3 ngày</p>
+                        </li>
+                        <div class="clearfix"> </div>
+                    </ul>
+                    <ul class="cart-header">
+                        <div class="close3"> </div>
+                        <li class="ring-in">
+                            <a href="~/Home/Detail"><img src="~/images/c-1.jpg" class="img-responsive" alt=""></a>
+                        </li>
+                        <li><span class="name">Iphone 13</span></li>
+                        <li><span class="cost">13.990.990vnđ</span></li>
+                        <li>
+                            <span>Miễn phí</span>
+                            <p>Giao hàng từ 2-3 ngày</p>
+                        </li>
+                        <div class="clearfix"> </div>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--end-ckeckout-->
